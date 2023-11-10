@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Image Change Web-Page</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="gallary">
+        <img src="imgs/image1.png" id="hero"/>
+        <div class="sides_btns">
+          <span class="select_btn one active"></span>
+          <span class="select_btn two"></span>
+          <span class="select_btn three"></span>
+        </div>
+      </div>
+
+      <div class="details">
+        <h1 class="heading">Casual T Shirt</h1>
+        <h3 class="prize">$15.00</h3>
+        <span class="discount"> 30% OFF </span>
+        <p class="description">
+          Wandering is an American manufacturer of jeans and other
+          items,particularly workwear
+        </p>
+
+        <form>
+          <div class="selection_box">
+            <p class="selection">Size</p>
+            <label for="size">
+              <input type="radio" name="size" id="size" />
+              <span>S</span>
+            </label>
+
+            <label for="medium">
+              <input type="radio" name="size" id="medium" />
+              <span>M</span>
+            </label>
+
+            <label for="large">
+              <input type="radio" name="size" id="large" />
+              <span>L</span>
+            </label>
+
+            <label for="x-large">
+              <input type="radio" name="size" id="x-large" />
+              <span>XL</span>
+            </label>
+
+            <label for="xx-large">
+              <input type="radio" name="size" id="xx-large" />
+              <span>XXL</span>
+            </label>
+          </div>
+
+          <!-- color_selection -->
+
+          <div class="color_selection">
+            <p class="selection">Color</p>
+            <label for="red">
+              <input type="radio" name="color" id="red" />
+              <span class="red"></span>
+            </label>
+
+            <label for="green">
+              <input type="radio" name="color" id="green" />
+              <span class="green"></span>
+            </label>
+
+            <label for="blue">
+              <input type="radio" name="color" id="blue" />
+              <span class="blue"></span>
+            </label>
+
+            <label for="skin">
+              <input type="radio" name="color" id="skin" />
+              <span class="skyblue"></span>
+            </label>
+
+        </div>
+            <div class="quantity">
+                <p>
+                    Quantity
+                </p>
+                <input type="number" placeholder="Qnt">
+          </div>
+
+          <button type="submit" id="submit_bnt">
+            But Now
+          </button>
+        </form>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
